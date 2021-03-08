@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "fullname": "David Sanchez",
+        "age": 22
+    },
+    {
+        "id": 2,
+        "fullname": "Isaac Cabrera",
+        "age": 22
+    },
+    {
+        "id": 3,
+        "fullname": "Erick De Santiago",
+        "age": 22
+    }
+]

@@ -1,0 +1,35 @@
+{{#each fullDataAnimals}}
+
+<div class="container">
+    <img src={{image}}> </img>
+    <div>
+        <br>
+        <br>
+        <span class="attribute">
+            <strong>Name:</strong>{{this.animalname}}
+        </span>
+        <br>
+        <span class="attribute">
+            <strong>Breed:</strong> {{this.breedname}}
+        </span>
+        <br>
+        <span class="attribute">
+            <strong>Specie:</strong> {{this.speciesname}}
+        </span>
+        <br>
+        <span class="attribute">
+            <strong>Age:</strong> {{this.animalage}}
+        </span>
+        <br>
+        <span class="attribute">
+            <strong>Color:</strong> {{this.basecolour}}
+        </span>
+        <div class="div-btn">
+            <a href="/{{this.id}}?url={{image}}"> <button class="button-details"> Details</a>
+            </button>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+{{/each}}

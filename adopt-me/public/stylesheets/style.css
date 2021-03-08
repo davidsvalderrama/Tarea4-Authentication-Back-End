@@ -1,0 +1,321 @@
+body {
+  padding: 0px 40px;
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+
+/*
+Estilo de home
+*/
+a {
+  color: #00B7FF;
+}
+
+h1.header{
+  font-size: 3em;
+  text-align: center;
+  margin: 15 px;
+}
+
+.container {
+  background-color: rgb(156, 151, 151);
+  margin-left :auto;
+  margin-right: auto;
+  height:50%;
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+
+}
+
+.attribute{
+  font-size:20px;
+}
+
+img{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  height:200px;
+  width: 200px;
+}
+
+.div-btn{
+  margin-top: 20px;
+  margin-left: 220px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*
+Estilo de la página de detalles del michi
+*/
+.container-details{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(156, 151, 151);
+  margin-left :auto;
+  margin-right: auto;
+  height: 30%;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+}
+
+.img-details{
+  align-self: center;
+  height: 200px;
+  width: 380px;
+}
+
+.attribute-details{
+  font-size:20px;
+}
+
+.button-details{
+  font-size: 15px;
+  width: 100px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+/*
+Estilo de la ventana para finalizar la adopción
+*/
+.button-adopt{
+  font-size: 15px;
+  width: 100px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.text-adopt{
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+.container-adopt{
+  border-color: white;
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-id{
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  color: black;
+}
+
+.id-text{
+  width: 360px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+
+.adopt-btn{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 30px;
+  border-color: black;
+  cursor: pointer;
+}
+
+
+/*
+Estilo de la ventana del perfil del usuario
+*/
+div.container-profile{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  margin-left :auto;
+  margin-right: auto;
+  height: 30%;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+}
+
+.img-profile{
+  align-self: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.attribute-profile{
+  font-size:20px;
+  color: white;
+}
+
+/*
+Estilos del nav
+*/
+
+.navbar-default{
+  background-color:black;
+  border-color: black;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.user-log{
+  font-size: 1.5em;
+}
+
+.image-home{
+  height: 20px;
+  width: 20px;
+}
+
+.disabled{
+  font-size: 1.5em;
+  text-decoration-color: red;
+}
+
+.enabled{
+  font-size: 1.5em;
+  text-decoration-color: red;
+}
+
+.letras{
+  font-size: 1.5em;
+  text-decoration-color: white;
+}
+
+
+/*
+Estilo de login
+*/
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+font-family: 'Numans', sans-serif;
+}
+
+.container-log{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.login-btn{
+  padding-right: 130px;
+  padding-top: 20px;
+}
+
+div.form-group{
+  width: 100%;
+  background-color: #DEDEDE;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css"> 
+    <title>Adopta michis</title>
+</head>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-center">
+            <li class="user-log"><a href="/animals"><img src="data:image/png;base64,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"  class="image-home">  </a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="enabled" class="user-log" id="demo">
+            {{#if isLoggedIn}}
+            <a href="/auth/logout" class="letras">Logout</a>
+            <li class="enabled" class="user-log" id="demo"> <a href="/profile" class="letras">Profile</a></li>
+            {{else}}
+            <a href="/auth/login" class="letras" >Login</a> 
+            {{/if}}
+            </a></li> 
+        </ul>
+    </div>
+</nav>
+<body> 
+    {{{ body }}}
+</body>
+</html>

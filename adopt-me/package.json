@@ -1,0 +1,28 @@
+{
+  "name": "adopt-me",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^1.4.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-handlebars": "^5.2.1",
+    "http-errors": "~1.6.3",
+    "joi": "^17.4.0",
+    "morgan": "~1.9.1",
+    "node-postgres": "^0.6.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
